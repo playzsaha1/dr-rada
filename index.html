@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Readable Text</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      backdrop-filter: blur(6px);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 10vw, 8rem);
+      color: #ff4d4d;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin: 0;
+      text-shadow:
+        0 0 10px rgba(255, 77, 77, 0.8),
+        0 0 20px rgba(255, 77, 77, 0.6),
+        0 0 40px rgba(255, 77, 77, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Dr Rada Is A Loser</h1>
+  </div>
+</body>
+</html>
